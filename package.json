@@ -4,5 +4,15 @@
   "description": "Learn Gulp by building an awesome development environment",
   "repository": "https://github.com/sung-da/gulp.git",
   "author": "sung-da <desung2020@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7"
+  }
 }
